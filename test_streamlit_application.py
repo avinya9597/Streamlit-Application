@@ -16,8 +16,7 @@ st.write("Hello Streamlit!")
 """#START STREAMLIT APPLICATION"""
 import streamlit as st
 import pandas as pd
-import plotly as px
-
+import matplotlib.pyplot as plt
 """SETUP WEB PAGE TITLE AND HEADER"""
 
 # To set a webpage title, header and subtitle

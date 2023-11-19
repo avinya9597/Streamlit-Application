@@ -15,7 +15,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Movies analysis", layout='wide')
-st.title('cheking')
+st.title('Movies analysis')
 #read in the file
 movies_data = pd.read_csv("movies.csv")
 movies_data.info()

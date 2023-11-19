@@ -2,7 +2,6 @@
 numpy==1.21.5 
 
 # Build dependencies
-gcc==10.3.0
 python-dev==3.8.10
 libpng-dev==1.6.37
 

@@ -17,7 +17,7 @@ st.write("Hello Streamlit!")
 
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly as px
 import matplotlib.pyplot as plt
 
 """SETUP WEB PAGE TITLE AND HEADER"""

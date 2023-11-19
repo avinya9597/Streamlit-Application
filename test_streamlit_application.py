@@ -9,7 +9,6 @@ Original file is located at
 
 # !pip install streamlit
 
-import streamlit as st
 
 """#START STREAMLIT APPLICATION"""
 import streamlit as st
@@ -18,7 +17,7 @@ import matplotlib.pyplot as plt
 """SETUP WEB PAGE TITLE AND HEADER"""
 
 st.set_page_config(page_title="Movies analysis", layout='wide')
-
+st,title('cheking')
 #read in the file
 movies_data = pd.read_csv("/content/movies.csv")
 movies_data.info()

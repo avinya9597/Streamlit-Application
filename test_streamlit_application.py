@@ -67,9 +67,6 @@ new_genre_year = (movies_data['genre'].isin(new_genre_list)) & (movies_data['yea
 """#VISUALIZATION SECTION
 
 """
-y = 'score')
-    st.plotly_chart(figpx)
-
 # creating a bar graph with matplotlib
 st.write("""
 Average Movie Budget, Grouped by Genre

@@ -14,7 +14,6 @@ st.write("Hello World!")
 st.write("Hello Streamlit!")
 
 """#START STREAMLIT APPLICATION"""
-pip install plotly
 import streamlit as st
 import pandas as pd
 import plotly as px

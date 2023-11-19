@@ -10,8 +10,6 @@ Original file is located at
 # !pip install streamlit
 
 import streamlit as st
-st.write("Hello World!")
-st.write("Hello Streamlit!")
 
 """#START STREAMLIT APPLICATION"""
 import streamlit as st

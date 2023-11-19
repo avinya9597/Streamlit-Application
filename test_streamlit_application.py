@@ -17,7 +17,6 @@ st.write("Hello Streamlit!")
 import streamlit as st
 import pandas as pd
 import plotly as px
-import matplotlib.pyplot as plt
 
 """SETUP WEB PAGE TITLE AND HEADER"""
 
@@ -68,20 +67,7 @@ new_genre_year = (movies_data['genre'].isin(new_genre_list)) & (movies_data['yea
 """#VISUALIZATION SECTION
 
 """
-
-#group the columns needed for visualizations
-col1, col2 = st.columns([2,3])
-with col1:
-    st.write("""#### Lists of movies filtered by year and Genre """)
-    dataframe_genre_year = movies_data[new_genre_year].groupby(['name', 'genre'])['year'].sum()
-    dataframe_genre_year = dataframe_genre_year.reset_index()
-    st.dataframe(dataframe_genre_year, width = 400)
-
-with col2:
-    st.write("""#### User score of movies and their genre """)
-    rating_count_year = movies_data[score_info].groupby('genre')['score'].count()
-    rating_count_year = rating_count_year.reset_index()
-    figpx = px.line(rating_count_year, x = 'genre', y = 'score')
+y = 'score')
     st.plotly_chart(figpx)
 
 # creating a bar graph with matplotlib

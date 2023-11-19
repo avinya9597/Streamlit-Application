@@ -1,10 +1,6 @@
 # Base dependencies
 numpy==1.21.5 
 
-# Build dependencies
-python-dev==3.8.10
-libpng-dev==1.6.37
-
 # Matplotlib 
 matplotlib==3.5.1
 streamlit==0.67.1

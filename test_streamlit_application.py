@@ -19,8 +19,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 """SETUP WEB PAGE TITLE AND HEADER"""
 
-# To set a webpage title, header and subtitle
-# To set a webpage title, header and subtitle
 st.set_page_config(page_title="Movies analysis", layout='wide')
 
 #read in the file

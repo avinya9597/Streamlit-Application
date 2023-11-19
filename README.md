@@ -1,7 +1,5 @@
 # Streamlit-Application
 
-Here is one way to rephrase that:
-
 Streamlit is a Python library that enables you to quickly build and deploy beautiful web apps for data science and machine learning. It has seamless integration with popular Python data libraries like Pandas, Numpy, Matplotlib, and Scikit-Learn. Some key benefits of Streamlit include:
 
 - Intuitive and user-friendly interface - Streamlit uses simple Python syntax to generate interactive UI elements like charts, tables, sliders, etc. This makes it easy for data scientists to create rich dashboards without front-end web development.

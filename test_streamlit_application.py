@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Movies analysis", layout='wide')
 st.title('cheking')
 #read in the file
-movies_data = pd.read_csv("/content/movies.csv")
+movies_data = pd.read_csv("movies.csv")
 movies_data.info()
 
 movies_data.duplicated()
